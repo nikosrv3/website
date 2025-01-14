@@ -1,0 +1,20 @@
+body {
+    overflow-y: auto;
+}
+
+.calculator-section {
+    margin: 20px 0;
+    text-align: center; /* Center the heading */
+  }
+  
+  .calculator-container {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap in case of smaller screens */
+    gap: 20px; /* Space between the calculators */
+  }
+  
+  .calculator-container > div {
+    /* Optional: set a min-width or a fixed width for each calculator */
+    width: 33%; /* Adjust as needed */
+  }

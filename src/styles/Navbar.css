@@ -1,0 +1,51 @@
+/* src/styles/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: center; /* Center the entire navbar */
+    align-items: center;
+    padding: 20px 0; /* Adjust padding as needed */
+    color: #f0ddd5;
+    font-size: 1em;
+    position: fixed; /* Fix the navbar to the top */
+    top: 0; /* Position at the top */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center; /* Center content within the navbar */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Optional: set a max-width for better control */
+    gap: 40px; /* Space between the title/logo and links */
+  }
+  
+  .navbar-title {
+    font-size: 2em;
+    color: #f0ddd5;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex; /* Keep links in a horizontal layout */
+    gap: 20px; /* Space between the navbar links */
+  }
+  
+  .navbar-links li a {
+    color: #f0ddd5;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links li a:hover {
+    color: #ffffff;
+  }
+  
+  /* Optional: Add padding to the body to prevent content from being hidden behind the navbar */
+  body {
+    padding-top: 80px; /* Adjust this value to match the navbar height */
+  }
+  

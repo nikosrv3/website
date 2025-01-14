@@ -1,0 +1,60 @@
+.calculator {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .calculator h2 {
+    color: #333; /* Darker heading for better contrast */
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .clear-button {
+    background-color: #ff4d4d; /* Red for clear button */
+    margin-top: 0;
+  }
+  
+  .clear-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
+  
